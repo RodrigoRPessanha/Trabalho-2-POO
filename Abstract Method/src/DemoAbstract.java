@@ -3,7 +3,7 @@ import factories.GUIFactory;
 import factories.MacOSFactory;
 import factories.WindowsFactory;
 
-public class Demo {
+public class DemoAbstract {
     public static void main(String[] args) {
         Application app = configureApplication();
         app.paint();
