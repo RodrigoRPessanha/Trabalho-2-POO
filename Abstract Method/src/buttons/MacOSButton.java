@@ -4,6 +4,6 @@ public class MacOSButton implements Button {
 
     @Override
     public void paint() {
-        System.out.println("You have created MacOSButton.");
+        System.out.println("Você criou um MacOSButton.");
     }
 }

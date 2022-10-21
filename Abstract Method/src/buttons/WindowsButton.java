@@ -4,6 +4,6 @@ public class WindowsButton implements Button {
 
     @Override
     public void paint() {
-        System.out.println("You have created WindowsButton.");
+        System.out.println("Você criou um WindowsButton.");
     }
 }
