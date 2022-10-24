@@ -36,14 +36,14 @@ public class DemoPrototype {
 
         for (int i = 0; i < shapes.size(); i++) {
             if (shapes.get(i) != shapesCopy.get(i)) {
-                System.out.println(i + ": Shapes are different objects (yay!)");
+                System.out.println(i + ": As formas são objetos diferentes");
                 if (shapes.get(i).equals(shapesCopy.get(i))) {
-                    System.out.println(i + ": And they are identical (yay!)");
+                    System.out.println(i + ": E são idênticos");
                 } else {
-                    System.out.println(i + ": But they are not identical (booo!)");
+                    System.out.println(i + ": Mas eles não são idênticos");
                 }
             } else {
-                System.out.println(i + ": Shape objects are the same (booo!)");
+                System.out.println(i + ": As formas são objetos iguais.");
             }
         }
     }
